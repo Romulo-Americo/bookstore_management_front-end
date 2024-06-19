@@ -15,7 +15,9 @@ function Clients(){
             <SideBar/>
             <main className='listClients'>
                 <h1 className='titlePages'>Lista de Clientes</h1>
-                <Button description= {<Link to='/addClients'>Adicionar livros</Link>}/>
+                <Link to='/addClient'>
+                    <Button description='Adicionar Cliente' />
+                </Link>
                 <Table
                     col1=''
                     col2='Cliente'
@@ -29,8 +31,27 @@ function Clients(){
                         <td>00.000-0</td>
                         <td>XX</td>
                         <td>
-                            <ActionsButtons color='rgb(65, 189, 65)' description='+ pontos'/>
-                            <ActionsButtons color='rgb(250, 143, 71)' description = 'Editar'/>                           
+                            <ActionsButtons color='rgb(65, 189, 65)' description='+ pontos'/>                           
+                            <ActionsButtons color='rgb(238, 84, 84)' description='Excluir'/>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td><img src={user} alt="user"/></td>
+                    <td>Cliente Teste</td>
+                        <td>00.000-0</td>
+                        <td>XX</td>
+                        <td>
+                            <ActionsButtons color='rgb(65, 189, 65)' description='+ pontos'/>                      
+                            <ActionsButtons color='rgb(238, 84, 84)' description='Excluir'/>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td><img src={user} alt="user"/></td>
+                    <td>Cliente Teste</td>
+                        <td>00.000-0</td>
+                        <td>XX</td>
+                        <td>
+                            <ActionsButtons color='rgb(65, 189, 65)' description='+ pontos'/>                    
                             <ActionsButtons color='rgb(238, 84, 84)' description='Excluir'/>
                         </td>
                     </tr>
@@ -41,29 +62,6 @@ function Clients(){
                         <td>XX</td>
                         <td>
                             <ActionsButtons color='rgb(65, 189, 65)' description='+ pontos'/>
-                            <ActionsButtons color='rgb(250, 143, 71)' description = 'Editar'/>                           
-                            <ActionsButtons color='rgb(238, 84, 84)' description='Excluir'/>
-                        </td>
-                    </tr>
-                    <tr>
-                    <td><img src={user} alt="user"/></td>
-                    <td>Cliente Teste</td>
-                        <td>00.000-0</td>
-                        <td>XX</td>
-                        <td>
-                            <ActionsButtons color='rgb(65, 189, 65)' description='+ pontos'/>
-                            <ActionsButtons color='rgb(250, 143, 71)' description = 'Editar'/>                           
-                            <ActionsButtons color='rgb(238, 84, 84)' description='Excluir'/>
-                        </td>
-                    </tr>
-                    <tr>
-                    <td><img src={user} alt="user"/></td>
-                    <td>Cliente Teste</td>
-                        <td>00.000-0</td>
-                        <td>XX</td>
-                        <td>
-                            <ActionsButtons color='rgb(65, 189, 65)' description='+ pontos'/>
-                            <ActionsButtons color='rgb(250, 143, 71)' description = 'Editar'/>                           
                             <ActionsButtons color='rgb(238, 84, 84)' description='Excluir'/>
                         </td>
                     </tr>

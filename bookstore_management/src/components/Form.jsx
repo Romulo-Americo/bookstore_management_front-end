@@ -1,7 +1,7 @@
 import styles from './form.css'
 
 
-function Form({label1, label2, label3, label4, children, action}) {
+function Form({label1, label2, label3, children, action}) {
     return (
         <form className="formAdd">
             <label htmlFor="">{label1}</label>
@@ -9,8 +9,6 @@ function Form({label1, label2, label3, label4, children, action}) {
             <label htmlFor="">{label2}</label>
             <input type="text"/>
             <label htmlFor="">{label3}</label>
-            <input type="text" />
-            <label htmlFor="">{label4}</label>
             <input type="text" />
             {children}
             <button>{action}</button>

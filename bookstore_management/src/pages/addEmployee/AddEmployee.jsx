@@ -1,26 +1,23 @@
-import styles from './addClient.css'
+import styles from './addEmployee.css'
 import Form from "../../components/Form";
 import SideBar from "../../components/SideBar";
 
 
-function AddClient(){
+function AddEmployee(){
     return(
         <div>
             <SideBar/>
             <main className='formToAddClients'>
-                <h1 className='titlePages'>Cadastra Cliente</h1>
+                <h1 className='titlePages'>Cadastra Funcionário</h1>
                 <Form
                        label1='Nome'
                        label2='Email'
-                       label3='Telefone'
+                       label3='Tipo funcionário'
                        action='Criar'
-                >
-                <label htmlFor="">Endereço</label>
-                <input type="text" />
-                </Form>
+                />
             </main>
         </div>
     );
 }
 
-export default AddClient;
+export default AddEmployee;

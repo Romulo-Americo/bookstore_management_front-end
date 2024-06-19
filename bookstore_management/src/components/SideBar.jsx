@@ -10,9 +10,9 @@ function SideBar(){
                 {/* Se funcionario for do tipo gerente colocar uma condicional para liberar esse acesso */}
                 <li><Link to='/employees'>Funcionários</Link></li>
                 <li><Link to='/books'>Livros</Link></li>
-                <li><Link to='/addBooks'>Adicionar Livro</Link></li>
+                <li><Link to='/addBook'>Adicionar Livro</Link></li>
                 <li><Link to='/clients'>Clintes</Link></li>
-                <li><Link to='/addClients'>Adicionar cliente</Link></li>
+                <li><Link to='/addClient'>Adicionar cliente</Link></li>
                 <li><Link to='/'>Sair</Link></li>
 
             </ul>

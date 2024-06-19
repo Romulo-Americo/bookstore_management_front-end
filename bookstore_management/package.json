@@ -1,6 +1,6 @@
 {
   "name": "bookstore_management",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -35,5 +35,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gituhub.com/Romulo-Americo/bookstore_management_front-end"
+  },
+  "author": "Américo",
+  "license": "ISC"
 }

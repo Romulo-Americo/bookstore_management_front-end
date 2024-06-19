@@ -2,6 +2,7 @@ import style from './employee.css'
 import user from '../../assets/userBlack.png'
 import activate from '../../assets/buttonBlue.png'
 import blocked from '../../assets/buttonRed.png'
+import { Link } from 'react-router-dom';
 
 
 import SideBar from "../../components/SideBar";
@@ -16,7 +17,9 @@ function Employee(){
             <SideBar/>
             <main className="listEmployee">
                 <h1 className='titlePages'>Lista de funcionarios</h1>
-                <Button description='Adicionar Funcionário'/>
+                <Link to='/addEmployee'>
+                    <Button description='Adicionar Funcionário' />
+                </Link>
                 <Table
                     col1=''
                     col2='Nome'

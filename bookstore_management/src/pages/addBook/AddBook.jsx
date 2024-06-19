@@ -15,11 +15,12 @@ function AddBook(){
                        label1='Título do Livro'
                        label2='Autor do Livro'
                        label3='Gênero'
-                       label4='Ano de Publicação'
                        action='Criar'
                 >
+                    <label htmlFor="">Ano lançamento</label>
+                    <input type="text" />
                     <label htmlFor="">Valor</label>
-                    <input type="text"></input>
+                    <input type="text"/>
                 </Form>
                 
             </main>
